@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("burks.jpg");
+    background-position: 10%;
+}
+
+form {
+    background-color: rgba(245, 222, 179, 0.773);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+    border: red solid 1px;
+    height: 30vh;
+    width: 60vw;
+}
+form input{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+#output{
+    border: solid 1px black;
+    padding: 1em;
+}
+#description {
+    width: 57vw;
+    padding: 3em;
+    border: solid 3px sienna;
+    border-radius: 100px 0px 25px 0;
+    background-color: antiquewhite;
+    transition: 1s;
+}
+
+#output {
+    text-transform: uppercase;
+    visibility: hidden;
+    background-color: rgb(255, 0, 0);
+    border-radius: 55px 0px;
+
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-shadow:1px 1px black;
+    text-decoration: underline;
+
+    
+}
+button{
+    padding: 1em 3em;
+    transition:linear 0.3s;
+
+}
+button:hover{
+    background-color: red;
+    color: white
+}
