@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-image:url("taust.jpg");
+    background-size:cover;
+    background-position:center;
+    backdrop-filter: blur(10px);
+    height:100vh;
+}
+header{
+    position: fixed;
+    background-color: #c92f2f;
+    height: 155px;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border-radius: 6px;
+}
+.logo{
+    position: absolute;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    margin-top: 45px;
+    margin-right: 60px;
+    float: right;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.content{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.content h1{
+    font-size: 100px;
+    animation: transitionIn 2s;
+} 
+.content p{
+    font-size: 30px;
+    animation: transitionIn 4s;
+}
+
+.content h2{
+    font-size: 50px;
+    animation: transitionIn 8s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg)
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(-10deg)
+    }
+}
