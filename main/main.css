@@ -54,7 +54,7 @@ header{
     
 }
 .content h1{
-    font-size: 100px;
+    font-size: 60px;
     animation: transitionIn 2s;
 } 
 .content p{
@@ -63,7 +63,7 @@ header{
 }
 
 .content h2{
-    font-size: 50px;
+    font-size: 20px;
     animation: transitionIn 8s;
 }
 
