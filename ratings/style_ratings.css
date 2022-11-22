@@ -1,3 +1,4 @@
+/*Remember to css validate and push*/
 .header {
     width: 100%;
     height: 100px;
@@ -8,7 +9,7 @@
 }
 
 body {
-  background-image: url("https://img.freepik.com/premium-photo/food-cooking-background-ingredients-preparation-vegan-dishes-green-bean-vegetables-roots-spices-mushrooms-herbs-healthy-vegetarian-food-concept-rustic-wooden-table-top-view-copy-space_630207-7099.jpg?w=2000");
+  background-image: url("taust.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -21,8 +22,8 @@ body {
     background-color: rgb(255, 255, 255);    
     text-align: center;
     height: 200px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 5px;
   }
 
@@ -31,31 +32,35 @@ body {
   }
 
   .burgerLogo {
-    width:122.5px;
-    height:111px;
+    width: 80%;
+    height: 65%;
+    /*width:122.5px;
+    height:111px;*/
   }
 
   .logo {
-    padding: 3%;
+    padding: 2%;
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 80%;
   }
 
   .name {
     float: left;
-    width: 85%;
+    width: 75%;
     text-align: left;
   }
 
   .stars {
     float: left;
-    width: 85%;
+    width: 75%;
     text-align: left;
   }
 
   .text {
+    float: left;
     text-align: left;
+    width: 75%;
   }
 
 
