@@ -1,15 +1,7 @@
 /*Remember to css validate and push*/
-.header {
-    width: 100%;
-    height: 100px;
-    /*box-shadow: 0px 10px 10px rgb(202, 202, 202);*/
-    background-color: rgb(255, 255, 255);
-    border: 2px outset rgb(0, 0, 0);
-    border-radius: 5px;
-}
 
 body {
-  background-image: url("taust.jpg");
+  background-image: url("taustBlur.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -18,13 +10,13 @@ body {
 
 .myDiv {
     margin-top: 75px;
-    border: 2px outset rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);    
     text-align: center;
     height: 200px;
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 5px;
+    display: flex;
   }
 
   .checked {
@@ -32,35 +24,32 @@ body {
   }
 
   .burgerLogo {
-    width: 80%;
-    height: 65%;
-    /*width:122.5px;
-    height:111px;*/
+    max-width: 80%;
+    max-height: 65%;
   }
 
-  .logo {
+  .image_frame {
+    flex: 1;
     padding: 2%;
     float: left;
-    width: 10%;
-    height: 80%;
   }
 
-  .name {
+  .next_to_inside {
+    font-family: Arial, Helvetica, sans-serif;
     float: left;
-    width: 75%;
+    object-fit: contain;
+    width: 100%;
     text-align: left;
   }
 
-  .stars {
-    float: left;
-    width: 75%;
-    text-align: left;
+  .next_to {
+    flex: 5;
   }
 
-  .text {
-    float: left;
-    text-align: left;
-    width: 75%;
+  .filler {
+    height: 150px;
+    width: 100%;
+    clear: both;
   }
 
 
