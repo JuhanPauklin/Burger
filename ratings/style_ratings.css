@@ -1,42 +1,5 @@
 /*Remember to css validate and push*/
 
-header{
-  position: fixed;
-  background-color: #c92f2f;
-  height: 155px;
-  width: 95%;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  border-radius: 6px;
-}
-
-.logo{
-  position: absolute;
-}
-.nav{
-  position: absolute;
-  width: 100%;
-}
-.nav a{
-  margin-top: 45px;
-  margin-right: 60px;
-  float: right;
-  width: 200px;
-  border-radius: 8px;
-  text-align: center;
-  line-height: 55px;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: white;
-  color: black;
-}
-.nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 body {
   background-image: url("taustBlur.jpg");
   height: 100%; 
