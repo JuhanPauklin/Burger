@@ -57,11 +57,13 @@ section {
 }
 
 .about p{
+    margin-top: 5%;
+    margin-bottom: 10%;
     text-align: justify;
     font-size: 25px;
     color: whitesmoke;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 @keyframes transitionIn {
