@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image:url("taust.jpg");
+    background-size:cover;
+    background-position:center;
+    backdrop-filter: blur(10px);
+    height:100vh;
+    background-repeat: repeat-y;
+    overflow: hidden;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: center;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+  }
+
+.content {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    height: 100vh;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.landing h1{
+    margin-top: 15%;
+    font-size: 60px;
+    animation: transitionIn 5s;
+    color: whitesmoke;
+}
+
+.landing h2{
+    font-size: 40px;
+    animation: transitionIn 8s;
+    color: whitesmoke;
+    margin-top: 15%;
+}
+
+.about h1{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.about p{
+    text-align: justify;
+    font-size: 25px;
+    color: whitesmoke;
+    margin-top: 5%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg)
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(-10deg)
+    }
+}
