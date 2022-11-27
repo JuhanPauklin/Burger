@@ -1,0 +1,56 @@
+/*Remember to css validate and push*/
+
+body {
+  background-image: url("taustBlur.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myDiv {
+    margin-top: 75px;
+    background-color: rgb(255, 255, 255);    
+    text-align: center;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    display: flex;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .burgerLogo {
+    max-width: 80%;
+    max-height: 65%;
+  }
+
+  .image_frame {
+    flex: 1;
+    padding: 2%;
+    float: left;
+  }
+
+  .next_to_inside {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    object-fit: contain;
+    width: 100%;
+    text-align: left;
+  }
+
+  .next_to {
+    flex: 5;
+  }
+
+  .filler {
+    height: 150px;
+    width: 100%;
+    clear: both;
+  }
+
+
+
