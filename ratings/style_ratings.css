@@ -1,5 +1,8 @@
 /*Remember to css validate and push*/
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background-image: url("taustBlur.jpg");
   height: 100%; 
