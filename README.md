@@ -1,2 +1,0 @@
-# Burger
-Eriala burgeri veebileht
